@@ -80,7 +80,7 @@ public class Multiplication
 	{
 		Assert.AreEqual(15, Program.Multiply("3", "5"));
 		Assert.AreEqual(-6, Program.Multiply("-3", "2"));
-		Assert.AreEqual(0, Program.Multiply("7", "7"));
+		Assert.AreEqual(49, Program.Multiply("7", "7"));
 	}
 
 	[TestMethod]
